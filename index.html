@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <!-- FONT AWESOME ADD  -->
+    <link rel="stylesheet" href="FA/css/all.css">
+    <link rel="stylesheet" href="FA/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="music_container">
+            <h2 id="title">Kya mujhe pyar hai</h2>
+            <h3 id="artist">KK</h3>
+            <div class="img_container">
+                <img src="images/1.png" alt="">
+            </div>
+
+            <!-- Audio file  -->
+            <!-- <audio src="audio/3.mp3" controls></audio>  controls is used to see music player -->
+            <audio src="audio/1.mp3"></audio>
+
+            <!-- CONTROLS  -->
+            <div class="music_controls">
+
+                <!--
+                <span class="material-icons-outlined">
+                    <img src="images/icons/play.svg" alt="">
+                    </span> 
+                    <img class="fas fa-backward" src="images/icons/previous.svg" title="Previous" alt="" >
+                    TITLE SE WAHA HOVER KRNE PE SHOW HOGA
+                    <img class="fas fa-play main_button" id="play" src="images/icons/play.svg" title="Play" alt="" >
+                    <img class="fas fa-forward" src="images/icons/next1.svg" title="Next" alt="" > 
+                    <img class="fas fa-forward" src="images/icons/pause.svg" title="Next" alt="" > 
+                    
+                        <i class="fa-solid fa-backward" id="prev" title="previous"></i>
+                        <i class="fa-solid fa-play main_button" id="play" title="play"></i>
+                            TITLE SE WAHA HOVER KRNE PE SHOW HOGA  
+                        <i class="fa-solid fa-forward" id="next" title="next"></i>
+                        <i class="fa-solid fa-pause"></i>
+            -->
+
+
+                <!-- FONT AWESOME ADD  -->
+
+                <!-- <i class="fas fa-pause"></i> -->
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play main_button" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
